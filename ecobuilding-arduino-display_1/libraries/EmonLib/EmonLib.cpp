@@ -210,7 +210,9 @@ double EnergyMonitor::calcIrms(unsigned int Number_of_Samples)
     
     // 2) sum
     // Seleccioa el margen de ruido a la entrada
-    if (sqI > 20.0) enable_sumI = 1;
+    // if (sqI > 16.0) enable_sumI = 1;
+    if (sqI > 1.0) enable_sumI = 1;
+    // enable_sumI = 1;
     sumI += sqI; 
     // sumI += sqI;
     // Serial.print("* sqI = ");

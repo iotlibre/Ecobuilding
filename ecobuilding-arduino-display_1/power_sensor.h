@@ -6,7 +6,7 @@
 // ******** CONFIGURACION SENSORES DE POTENCIA    ********
 // *******************************************************
 
-#define NUMBER_OF_PWR_SENSORS 6
+#define NUMBER_OF_PWR_SENSORS 3
 
 #define MAME_PWR_1 "Pinza_1"
 #define ENTER_1 A0
@@ -22,15 +22,15 @@
 
 #define MAME_PWR_4 "Pinza_4"
 #define ENTER_4 A3
-#define CURRENT_CONST_4 1600
+#define CURRENT_CONST_4 500
 
 #define MAME_PWR_5 "Pinza_7"
 #define ENTER_5 A6
-#define CURRENT_CONST_5 1600
+#define CURRENT_CONST_5 500
 
 #define MAME_PWR_6 "Pinza_8"
 #define ENTER_6 A7
-#define CURRENT_CONST_6 1600
+#define CURRENT_CONST_6 500
 
 
 // *******************************************************
